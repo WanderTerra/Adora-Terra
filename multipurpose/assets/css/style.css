@@ -209,7 +209,7 @@ form button.btn-primary:hover {
 }
 
 .hero .slide-content p {
-  color: #5e6738f7;
+  color: #5e673879;
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
   padding: 35px 0 35px 30px;
@@ -307,6 +307,7 @@ form button.btn-primary:hover {
   background-color: #d6a461;
   position: relative;
   z-index: 1;
+
 }
 
 .cta-content::after {
@@ -316,14 +317,15 @@ form button.btn-primary:hover {
   background-color: #1c4220d0;
   position: absolute;
   top: -25px;
-  left: -1px;
+  left: -10px;
   z-index: -1;
   transition: all 0.2s ease-in-out;
 }
 
 .cta-content .subscribe-btn {
-  align-self: flex-end;
-  margin-right: 30px;
+  align-self: flex-start;
+
+  
 }
 
 .btn btn-primary {
